@@ -8,9 +8,9 @@ run:
   source_sheet: Year 2010-2011
 
 split:
-  train_fraction: 0.60
-  validation_fraction: 0.20
-  test_fraction: 0.20
+  train: 0.60
+  validation: 0.20
+  test: 0.20
   route_sample_size: 300
 
 warehouse:

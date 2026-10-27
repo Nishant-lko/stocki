@@ -60,13 +60,17 @@ def clean_orders(source: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, int]]:
 
 def chronological_split(orders: pd.DataFrame, fractions: dict[str, float]) -> pd.DataFrame:
     """Assign complete timestamp groups to chronological train/validation/test splits."""
-    if not abs(sum(fractions.values()) - 1.0) < 1e-9:
+    required = ("train", "validation", "test")
+    if any(name not in fractions for name in required):
+        raise ValueError("Split configuration must provide train, validation and test fractions")
+    split_fractions = {name: float(fractions[name]) for name in required}
+    if not abs(sum(split_fractions.values()) - 1.0) < 1e-9:
         raise ValueError("Split fractions must sum to one")
     order_times = orders.groupby("order_id", as_index=False)["timestamp"].min().sort_values("timestamp")
     timestamp_counts = order_times.groupby("timestamp", as_index=False).size().rename(columns={"size": "orders"})
     total = len(order_times)
-    train_target = total * fractions["train"]
-    validation_target = total * (fractions["train"] + fractions["validation"])
+    train_target = total * split_fractions["train"]
+    validation_target = total * (split_fractions["train"] + split_fractions["validation"])
     cumulative = timestamp_counts["orders"].cumsum()
     timestamp_counts["split"] = "test"
     timestamp_counts.loc[cumulative <= train_target, "split"] = "train"

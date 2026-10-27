@@ -43,6 +43,7 @@ def generate_skus(sku_ids: list[str], seed: int) -> pd.DataFrame:
         if rng.random() < 0.08:
             unit_weight = round(unit_weight + rng.uniform(7, 13), 2)
         fragile = category == "fragile"
+        on_hand_qty = int(rng.integers(2, 9)) if fragile else int(rng.integers(2, 13))
         rows.append({
             "sku_id": sku_id, "description": f"Synthetic item {sku_id}", "width_cm": int(width),
             "height_cm": int(height), "depth_cm": int(depth), "unit_volume_cm3": volume,
@@ -50,7 +51,7 @@ def generate_skus(sku_ids: list[str], seed: int) -> pd.DataFrame:
             "hazard_class": "isolated" if category == "hazardous" else "none",
             "handling_type": "fragile" if fragile else ("hazmat" if category == "hazardous" else "normal"),
             "allowed_orientations": "012" if fragile else "012;021;102;120;201;210",
-            "stackable": 0 if fragile else 1, "on_hand_qty": int(rng.integers(2, 13)),
+            "stackable": 0 if fragile else 1, "on_hand_qty": on_hand_qty,
         })
     return pd.DataFrame(rows)
 
