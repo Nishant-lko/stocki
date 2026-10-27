@@ -3,6 +3,7 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 *.py[cod]
+*.egg-info/
 
 # Input extracts and generated run artifacts can be reproduced locally.
 data/raw/*
