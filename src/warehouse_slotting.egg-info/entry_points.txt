@@ -1,0 +1,2 @@
+[console_scripts]
+warehouse-slotting = warehouse_slotting.cli:main

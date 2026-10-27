@@ -1,0 +1,63 @@
+run:
+  name: default
+  output_root: runs
+  random_seed: 20261027
+  active_sku_count: 150
+  source: uci_online_retail_ii
+  source_file: data/raw/online_retail_ii.zip
+  source_sheet: Year 2010-2011
+
+split:
+  train_fraction: 0.60
+  validation_fraction: 0.20
+  test_fraction: 0.20
+  route_sample_size: 300
+
+warehouse:
+  aisle_count: 6
+  racks_per_aisle: 2
+  bays_per_rack: 5
+  levels_per_bay: 4
+  aisle_spacing_m: 4.0
+  bay_pitch_m: 1.2
+  front_cross_aisle_y_m: 0.0
+  rear_cross_aisle_y_m: 7.2
+  depot_aisle: 0
+  depot_y_m: 0.0
+
+rules:
+  usable_volume_fraction: 0.90
+  heavy_unit_weight_kg: 8.0
+  heavy_allowed_levels: [0, 1]
+  golden_zone_levels: [1, 2]
+  high_risk_levels: [3]
+  hazardous_zone: HAZMAT
+  fragile_forbidden_levels: [3]
+  hazard_min_clearance_m: 8.0
+  base_pick_seconds: 4.0
+  seconds_per_unit: 0.2
+  walking_speed_mps: 1.2
+  reach_penalty_seconds:
+    "0": 1.5
+    "1": 0.0
+    "2": 0.0
+    "3": 2.5
+
+baseline:
+  primary_seed: 481516
+  restarts: 10
+
+optimizer:
+  seed: 516234
+  max_proposals: 10000
+  time_limit_seconds: 60
+  checkpoint_count: 5
+  weights:
+    depot: 0.50
+    affinity: 0.30
+    ergonomics: 0.15
+    occupied_capacity: 0.05
+  affinity:
+    min_cooccurrence: 3
+    neighbors_per_sku: 10
+

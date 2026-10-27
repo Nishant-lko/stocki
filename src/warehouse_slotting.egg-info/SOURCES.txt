@@ -1,0 +1,9 @@
+pyproject.toml
+src/warehouse_slotting/__init__.py
+src/warehouse_slotting/config.py
+src/warehouse_slotting.egg-info/PKG-INFO
+src/warehouse_slotting.egg-info/SOURCES.txt
+src/warehouse_slotting.egg-info/dependency_links.txt
+src/warehouse_slotting.egg-info/entry_points.txt
+src/warehouse_slotting.egg-info/requires.txt
+src/warehouse_slotting.egg-info/top_level.txt
