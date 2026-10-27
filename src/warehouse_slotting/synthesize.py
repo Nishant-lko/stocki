@@ -66,7 +66,7 @@ def generate_locations(config: dict) -> pd.DataFrame:
                 for level in range(warehouse["levels_per_bay"]):
                     is_hazmat = aisle == warehouse["aisle_count"] - 1
                     is_small = (bay + level) % 3 == 0
-                    width, height, depth = (45, 35, 40) if is_small else (70, 55, 55)
+                    width, height, depth = (60, 50, 50) if is_small else (90, 75, 75)
                     x = aisle * warehouse["aisle_spacing_m"] + (0.45 if rack_side else -0.45)
                     y = (bay + 0.5) * warehouse["bay_pitch_m"]
                     volume = width * height * depth
@@ -77,8 +77,8 @@ def generate_locations(config: dict) -> pd.DataFrame:
                         "aisle_number": aisle, "rack_id": rack_id, "shelf_id": shelf_id, "bay": bay,
                         "shelf_level": level, "x_m": x, "y_m": y, "z_m": level * 0.55,
                         "bin_width_cm": width, "bin_height_cm": height, "bin_depth_cm": depth,
-                        "volumetric_capacity_cm3": volume, "bin_max_weight_kg": 80.0,
-                        "shelf_max_weight_kg": 80.0, "rack_max_weight_kg": 1000.0,
+                        "volumetric_capacity_cm3": volume, "bin_max_weight_kg": 250.0,
+                        "shelf_max_weight_kg": 250.0, "rack_max_weight_kg": 3000.0,
                         "is_golden_zone": level in rules["golden_zone_levels"], "risk_zone": level in rules["high_risk_levels"],
                     })
     return pd.DataFrame(rows)
