@@ -1,0 +1,192 @@
+{
+  "selected": "optimized",
+  "selection_note": "Validation walks preferred a searched layout. Test orders were not used to make that choice.",
+  "optimizer": {
+    "proposals_tested": 10002,
+    "proposals_accepted": 268,
+    "stopping_reason": "proposal_budget",
+    "elapsed_seconds": 0.85,
+    "objective_before": 0.456539,
+    "objective_after": 0.331592,
+    "components_before": {
+      "depot": 0.462447,
+      "ergonomics": 0.338087,
+      "occupied_capacity": 0.751358,
+      "affinity": 0.456783
+    },
+    "components_after": {
+      "depot": 0.3354,
+      "ergonomics": 0.286253,
+      "occupied_capacity": 0.727901,
+      "affinity": 0.281863
+    },
+    "weights": {
+      "depot": 0.5,
+      "affinity": 0.3,
+      "ergonomics": 0.15,
+      "occupied_capacity": 0.05
+    },
+    "incumbent_validation_mean_distance_m": 39.301333,
+    "baseline_validation_mean_distance_m": 51.342667,
+    "selected_validation_mean_distance_m": 39.301333,
+    "validation_orders": 300,
+    "validation_policy": "first 300 validation order IDs in sorted order"
+  },
+  "test": {
+    "order_count": 3199,
+    "baseline_mean_distance_m": 46.785996,
+    "optimized_mean_distance_m": 36.199937,
+    "baseline_mean_time_s": 85.09058,
+    "optimized_mean_time_s": 75.498312,
+    "baseline_mean_walk_s": 38.98833,
+    "optimized_mean_walk_s": 30.166615,
+    "baseline_mean_reach_s": 5.189903,
+    "optimized_mean_reach_s": 4.41935,
+    "mean_handling_s": 40.912348,
+    "baseline_distance_per_stop_m": 7.271457,
+    "optimized_distance_per_stop_m": 5.626177,
+    "orders_shorter": 2613,
+    "orders_longer": 447,
+    "orders_same": 139,
+    "median_distance_delta_m": -10.8,
+    "worst_order_id": "575693",
+    "worst_increase_m": 26.4,
+    "first_order_id": "572853",
+    "median_order_id": "573075"
+  },
+  "placement": {
+    "skus_moved": 139,
+    "skus_changed_aisle": 95,
+    "a_mean_depot_before_m": 11.740955,
+    "a_mean_depot_after_m": 7.939835,
+    "affinity_mean_before_m": 12.424493,
+    "affinity_mean_after_m": 7.666667,
+    "golden_share_train_before": 0.549556,
+    "golden_share_train_after": 0.628805,
+    "golden_share_test_before": 0.577078,
+    "golden_share_test_after": 0.638488,
+    "occupied_fill_before": 0.06297,
+    "occupied_fill_after": 0.064999,
+    "overall_cube_fill": 0.039234,
+    "occupied_bin_count": 150
+  },
+  "safety": {
+    "baseline_feasible": true,
+    "optimized_feasible": true,
+    "optimized_violation_count": 0
+  },
+  "assumptions": {
+    "walking_speed_mps": 1.2,
+    "base_pick_seconds": 4.0,
+    "seconds_per_unit": 0.2,
+    "reach_penalty_seconds": {
+      "0": 1.5,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 2.5
+    },
+    "heavy_unit_weight_kg": 8.0,
+    "heavy_allowed_levels": [
+      0,
+      1
+    ],
+    "golden_zone_levels": [
+      1,
+      2
+    ],
+    "hazardous_zone": "HAZMAT",
+    "aisle_spacing_m": 4.0,
+    "front_cross_aisle_y_m": 0.0,
+    "rear_cross_aisle_y_m": 7.2,
+    "depot_aisle": 0,
+    "depot_y_m": 0.0,
+    "aisle_count": 6
+  },
+  "close_call_count": 36,
+  "close_calls": [
+    {
+      "sku_id": "85099B",
+      "current_location_id": "A02-R1-B00-L1-BIN",
+      "alternative_location_id": "A02-R0-B02-L3-BIN",
+      "score_increase": 0.004961
+    },
+    {
+      "sku_id": "20725",
+      "current_location_id": "A01-R1-B01-L1-BIN",
+      "alternative_location_id": "A02-R0-B02-L3-BIN",
+      "score_increase": 0.004683
+    },
+    {
+      "sku_id": "84879",
+      "current_location_id": "A00-R1-B02-L1-BIN",
+      "alternative_location_id": "A03-R1-B02-L1-BIN",
+      "score_increase": 0.003811
+    },
+    {
+      "sku_id": "21212",
+      "current_location_id": "A02-R1-B00-L0-BIN",
+      "alternative_location_id": "A03-R1-B02-L1-BIN",
+      "score_increase": 0.002929
+    },
+    {
+      "sku_id": "22720",
+      "current_location_id": "A00-R0-B01-L1-BIN",
+      "alternative_location_id": "A03-R1-B02-L1-BIN",
+      "score_increase": 0.004408
+    },
+    {
+      "sku_id": "22383",
+      "current_location_id": "A01-R1-B04-L1-BIN",
+      "alternative_location_id": "A02-R0-B02-L3-BIN",
+      "score_increase": 0.003138
+    },
+    {
+      "sku_id": "22457",
+      "current_location_id": "A00-R0-B00-L1-BIN",
+      "alternative_location_id": "A02-R0-B02-L3-BIN",
+      "score_increase": 0.004974
+    },
+    {
+      "sku_id": "22386",
+      "current_location_id": "A02-R1-B02-L2-BIN",
+      "alternative_location_id": "A03-R1-B02-L1-BIN",
+      "score_increase": 0.00193
+    }
+  ],
+  "ml": {
+    "enabled": true,
+    "model": "random forest classifier trained on the search's own placements",
+    "top1_accuracy": 0.066667,
+    "top3_accuracy": 0.2,
+    "holdout_skus": 30,
+    "training_pairs": 19340,
+    "feature_importance": {
+      "how often the product is ordered": 0.2524,
+      "how many units it ships": 0.1211,
+      "how heavy one unit is": 0.2553,
+      "how big one unit is": 0.0799,
+      "how many units we stock": 0.0513,
+      "whether it is fragile": 0.0109,
+      "whether it is hazardous": 0.0015,
+      "whether it counts as heavy": 0.0278,
+      "how far the bin is from the packing desk": 0.0839,
+      "which shelf height the bin is on": 0.0408,
+      "whether the bin is at a back-friendly height": 0.0495,
+      "how big the bin is": 0.0161,
+      "whether the bin is in the isolation aisle": 0.0017,
+      "which aisle the bin sits in": 0.0079
+    },
+    "mean_distance_m": 38.297968,
+    "published_mean_distance_m": 36.199937,
+    "baseline_mean_distance_m": 46.785996,
+    "orders_shorter_than_published": 940,
+    "orders_longer_than_published": 1598,
+    "mean_handling_s": 40.912348,
+    "mean_reach_s": 5.748515,
+    "features": [
+      "one row per product and legal bin",
+      "labels: the bin the search chose",
+      "features: product demand and physics, bin distance, height, size, zone"
+    ]
+  }
+}

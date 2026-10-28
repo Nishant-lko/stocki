@@ -1,0 +1,6302 @@
+{
+  "85123A": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0333,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0333,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0329,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0329,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0321,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0321,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0313,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0313,
+      "state": "available"
+    }
+  ],
+  "22423": [
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0148,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0148,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.014,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.014,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.014,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.014,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0137,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0137,
+      "state": "available"
+    }
+  ],
+  "85099B": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0174,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0174,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0168,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0168,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0157,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0157,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0151,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0151,
+      "state": "available"
+    }
+  ],
+  "47566": [
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0149,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0149,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0147,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0147,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0134,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0134,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0133,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0133,
+      "state": "available"
+    }
+  ],
+  "20725": [
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0144,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0144,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0142,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0142,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0129,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0129,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0128,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0128,
+      "state": "available"
+    }
+  ],
+  "84879": [
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0167,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0167,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0163,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0163,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0147,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0147,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B00-L1-BIN",
+      "probability": 0.0138,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B00-L1-BIN",
+      "probability": 0.0138,
+      "state": "available"
+    }
+  ],
+  "21212": [
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0163,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0163,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0156,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0156,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B00-L0-BIN",
+      "probability": 0.0149,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B00-L0-BIN",
+      "probability": 0.0149,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B00-L1-BIN",
+      "probability": 0.0143,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B00-L1-BIN",
+      "probability": 0.0143,
+      "state": "available"
+    }
+  ],
+  "22720": [
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.1384,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.1384,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.1369,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.1369,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.1343,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.1343,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B03-L1-BIN",
+      "probability": 0.1326,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B03-L1-BIN",
+      "probability": 0.1326,
+      "state": "available"
+    }
+  ],
+  "22383": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0815,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0815,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0815,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0815,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0798,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0798,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0798,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0798,
+      "state": "available"
+    }
+  ],
+  "22457": [
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.1155,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.1155,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.1154,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.1154,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.1153,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.1153,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.1153,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.1153,
+      "state": "available"
+    }
+  ],
+  "22386": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0184,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0184,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0183,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0183,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0159,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0159,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0152,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0152,
+      "state": "occupied"
+    }
+  ],
+  "21931": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0164,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0164,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0151,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0151,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0143,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0143,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0135,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0135,
+      "state": "occupied"
+    }
+  ],
+  "22197": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0177,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0177,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0169,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0169,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0148,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0148,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.014,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.014,
+      "state": "occupied"
+    }
+  ],
+  "22469": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0238,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0238,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0229,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0229,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0198,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0198,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0188,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0188,
+      "state": "occupied"
+    }
+  ],
+  "22411": [
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    }
+  ],
+  "20727": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0115,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0115,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L2-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L2-BIN",
+      "probability": 0.0102,
+      "state": "available"
+    }
+  ],
+  "22960": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0119,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0119,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    }
+  ],
+  "22961": [
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0317,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0317,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0315,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0315,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0284,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0284,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0279,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0279,
+      "state": "occupied"
+    }
+  ],
+  "20728": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0098,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0098,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0096,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0096,
+      "state": "available"
+    }
+  ],
+  "82482": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0119,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0119,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0115,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0115,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    }
+  ],
+  "22384": [
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0626,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0626,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L2-BIN",
+      "probability": 0.058,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B00-L2-BIN",
+      "probability": 0.058,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L0-BIN",
+      "probability": 0.0374,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B00-L0-BIN",
+      "probability": 0.0374,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B01-L1-BIN",
+      "probability": 0.0348,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B01-L1-BIN",
+      "probability": 0.0348,
+      "state": "available"
+    }
+  ],
+  "22178": [
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.2547,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.2547,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B01-L1-BIN",
+      "probability": 0.2418,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B01-L1-BIN",
+      "probability": 0.2418,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B02-L1-BIN",
+      "probability": 0.2396,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B02-L1-BIN",
+      "probability": 0.2396,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B04-L1-BIN",
+      "probability": 0.2241,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B04-L1-BIN",
+      "probability": 0.2241,
+      "state": "available"
+    }
+  ],
+  "22699": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0117,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0117,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0107,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0107,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "available"
+    }
+  ],
+  "21080": [
+    {
+      "location_id": "A01-R0-B03-L2-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L2-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B02-L2-BIN",
+      "probability": 0.0099,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B02-L2-BIN",
+      "probability": 0.0099,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B01-L2-BIN",
+      "probability": 0.0098,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B01-L2-BIN",
+      "probability": 0.0098,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B00-L2-BIN",
+      "probability": 0.0097,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B00-L2-BIN",
+      "probability": 0.0097,
+      "state": "available"
+    }
+  ],
+  "22666": [
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0602,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0602,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L2-BIN",
+      "probability": 0.0558,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B00-L2-BIN",
+      "probability": 0.0558,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B01-L2-BIN",
+      "probability": 0.0409,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B01-L2-BIN",
+      "probability": 0.0409,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B01-L1-BIN",
+      "probability": 0.037,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B01-L1-BIN",
+      "probability": 0.037,
+      "state": "available"
+    }
+  ],
+  "22382": [
+    {
+      "location_id": "A01-R0-B00-L1-BIN",
+      "probability": 0.0142,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B00-L1-BIN",
+      "probability": 0.0142,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B01-L1-BIN",
+      "probability": 0.0128,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B01-L1-BIN",
+      "probability": 0.0128,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0126,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0126,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B01-L1-BIN",
+      "probability": 0.0125,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B01-L1-BIN",
+      "probability": 0.0125,
+      "state": "available"
+    }
+  ],
+  "22697": [
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0277,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0277,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0275,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0275,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0273,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0273,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0273,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0273,
+      "state": "available"
+    }
+  ],
+  "23298": [
+    {
+      "location_id": "A01-R0-B03-L2-BIN",
+      "probability": 0.0091,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L2-BIN",
+      "probability": 0.0091,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B02-L2-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B02-L2-BIN",
+      "probability": 0.009,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B01-L2-BIN",
+      "probability": 0.0089,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B01-L2-BIN",
+      "probability": 0.0089,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0088,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0088,
+      "state": "available"
+    }
+  ],
+  "22993": [
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.018,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.018,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B02-L1-BIN",
+      "probability": 0.0161,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B02-L1-BIN",
+      "probability": 0.0161,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B02-L1-BIN",
+      "probability": 0.0158,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B02-L1-BIN",
+      "probability": 0.0158,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B01-L1-BIN",
+      "probability": 0.0155,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B01-L1-BIN",
+      "probability": 0.0155,
+      "state": "available"
+    }
+  ],
+  "20726": [
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0093,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L2-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L2-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0089,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0089,
+      "state": "occupied"
+    }
+  ],
+  "POST": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0461,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0461,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0457,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0457,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0456,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0456,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L2-BIN",
+      "probability": 0.0452,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L2-BIN",
+      "probability": 0.0452,
+      "state": "available"
+    }
+  ],
+  "20724": [
+    {
+      "location_id": "A01-R0-B03-L2-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L2-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L1-BIN",
+      "probability": 0.0094,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B03-L1-BIN",
+      "probability": 0.0094,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B02-L2-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B02-L2-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0093,
+      "state": "available"
+    }
+  ],
+  "22090": [
+    {
+      "location_id": "A01-R0-B02-L1-BIN",
+      "probability": 0.0093,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B02-L1-BIN",
+      "probability": 0.0093,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0093,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L1-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L1-BIN",
+      "probability": 0.0092,
+      "state": "available"
+    }
+  ],
+  "85099C": [
+    {
+      "location_id": "A01-R0-B02-L1-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B02-L1-BIN",
+      "probability": 0.0096,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L1-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L1-BIN",
+      "probability": 0.0095,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0095,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L2-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L2-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    }
+  ],
+  "23206": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0121,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0121,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0121,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0121,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    }
+  ],
+  "21977": [
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0777,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0777,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0774,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0774,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0773,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0773,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0773,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0773,
+      "state": "occupied"
+    }
+  ],
+  "22727": [
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B02-L1-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B02-L1-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B01-L2-BIN",
+      "probability": 0.0095,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B01-L2-BIN",
+      "probability": 0.0095,
+      "state": "available"
+    }
+  ],
+  "22470": [
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0103,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0103,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    }
+  ],
+  "23203": [
+    {
+      "location_id": "A01-R0-B03-L1-BIN",
+      "probability": 0.0091,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L1-BIN",
+      "probability": 0.0091,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L2-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L2-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0089,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0089,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B01-L1-BIN",
+      "probability": 0.0089,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B01-L1-BIN",
+      "probability": 0.0089,
+      "state": "available"
+    }
+  ],
+  "21929": [
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    }
+  ],
+  "20712": [
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0162,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0162,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B02-L1-BIN",
+      "probability": 0.016,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B02-L1-BIN",
+      "probability": 0.016,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B02-L1-BIN",
+      "probability": 0.0155,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B02-L1-BIN",
+      "probability": 0.0155,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B00-L1-BIN",
+      "probability": 0.0148,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B00-L1-BIN",
+      "probability": 0.0148,
+      "state": "available"
+    }
+  ],
+  "22077": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L2-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L2-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L1-BIN",
+      "probability": 0.0109,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B03-L1-BIN",
+      "probability": 0.0109,
+      "state": "available"
+    }
+  ],
+  "22629": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.01,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.01,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.01,
+      "state": "available"
+    }
+  ],
+  "22722": [
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    }
+  ],
+  "22355": [
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0652,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0652,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0643,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0643,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0643,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0643,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B01-L0-BIN",
+      "probability": 0.0637,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B01-L0-BIN",
+      "probability": 0.0637,
+      "state": "available"
+    }
+  ],
+  "84991": [
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L1-BIN",
+      "probability": 0.0088,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L1-BIN",
+      "probability": 0.0088,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0088,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0088,
+      "state": "available"
+    }
+  ],
+  "20914": [
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    }
+  ],
+  "21754": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0089,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0089,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0086,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0086,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L2-BIN",
+      "probability": 0.0085,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L2-BIN",
+      "probability": 0.0085,
+      "state": "occupied"
+    }
+  ],
+  "23199": [
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0529,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0529,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L2-BIN",
+      "probability": 0.0484,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L2-BIN",
+      "probability": 0.0484,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B01-L2-BIN",
+      "probability": 0.0374,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B01-L2-BIN",
+      "probability": 0.0374,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B01-L1-BIN",
+      "probability": 0.0342,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B01-L1-BIN",
+      "probability": 0.0342,
+      "state": "available"
+    }
+  ],
+  "85099F": [
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0168,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0168,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0165,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0165,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0155,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0155,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0155,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0155,
+      "state": "occupied"
+    }
+  ],
+  "21232": [
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0093,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0093,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B02-L1-BIN",
+      "probability": 0.0091,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B02-L1-BIN",
+      "probability": 0.0091,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L2-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L2-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    }
+  ],
+  "23209": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0091,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0091,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.009,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B02-L1-BIN",
+      "probability": 0.0089,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B02-L1-BIN",
+      "probability": 0.0089,
+      "state": "occupied"
+    }
+  ],
+  "20719": [
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0087,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0087,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0087,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0087,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0087,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0087,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L2-BIN",
+      "probability": 0.0085,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L2-BIN",
+      "probability": 0.0085,
+      "state": "occupied"
+    }
+  ],
+  "21928": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    }
+  ],
+  "22630": [
+    {
+      "location_id": "A00-R0-B01-L0-BIN",
+      "probability": 0.0151,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L0-BIN",
+      "probability": 0.0151,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0151,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0151,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B01-L0-BIN",
+      "probability": 0.0143,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B02-L0-BIN",
+      "probability": 0.0143,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B01-L0-BIN",
+      "probability": 0.0143,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B02-L0-BIN",
+      "probability": 0.0143,
+      "state": "available"
+    }
+  ],
+  "DOT": [
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0139,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0139,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0137,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0137,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B00-L0-BIN",
+      "probability": 0.0136,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B00-L0-BIN",
+      "probability": 0.0136,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0135,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0135,
+      "state": "occupied"
+    }
+  ],
+  "22558": [
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.1861,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.1861,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B01-L2-BIN",
+      "probability": 0.1828,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B01-L2-BIN",
+      "probability": 0.1828,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L2-BIN",
+      "probability": 0.1814,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L2-BIN",
+      "probability": 0.1814,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B01-L1-BIN",
+      "probability": 0.1745,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B01-L1-BIN",
+      "probability": 0.1745,
+      "state": "available"
+    }
+  ],
+  "84978": [
+    {
+      "location_id": "A01-R0-B03-L2-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L2-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L1-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L1-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L2-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L2-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    }
+  ],
+  "82494L": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0089,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0089,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0087,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0087,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0085,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0085,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L3-BIN",
+      "probability": 0.0085,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R1-B04-L3-BIN",
+      "probability": 0.0085,
+      "state": "available"
+    }
+  ],
+  "21175": [
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B00-L0-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B00-L0-BIN",
+      "probability": 0.0105,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "available"
+    }
+  ],
+  "22379": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    }
+  ],
+  "21181": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    }
+  ],
+  "84946": [
+    {
+      "location_id": "A00-R0-B01-L0-BIN",
+      "probability": 0.0115,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L0-BIN",
+      "probability": 0.0115,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    }
+  ],
+  "20685": [
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0481,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0481,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B01-L2-BIN",
+      "probability": 0.0475,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B01-L2-BIN",
+      "probability": 0.0475,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L2-BIN",
+      "probability": 0.0433,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L2-BIN",
+      "probability": 0.0433,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B01-L1-BIN",
+      "probability": 0.0424,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B01-L1-BIN",
+      "probability": 0.0424,
+      "state": "available"
+    }
+  ],
+  "22139": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    }
+  ],
+  "84755": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0457,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0457,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.045,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.045,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0445,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0445,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L0-BIN",
+      "probability": 0.0444,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L0-BIN",
+      "probability": 0.0444,
+      "state": "occupied"
+    }
+  ],
+  "22726": [
+    {
+      "location_id": "A03-R0-B01-L1-BIN",
+      "probability": 0.0172,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R1-B01-L1-BIN",
+      "probability": 0.0172,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R0-B02-L1-BIN",
+      "probability": 0.0161,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R1-B02-L1-BIN",
+      "probability": 0.0161,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R0-B01-L0-BIN",
+      "probability": 0.015,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R1-B01-L0-BIN",
+      "probability": 0.015,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B00-L1-BIN",
+      "probability": 0.0147,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B00-L1-BIN",
+      "probability": 0.0147,
+      "state": "available"
+    }
+  ],
+  "21731": [
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    }
+  ],
+  "20723": [
+    {
+      "location_id": "A01-R0-B02-L1-BIN",
+      "probability": 0.0125,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B02-L1-BIN",
+      "probability": 0.0125,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B00-L1-BIN",
+      "probability": 0.0124,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B00-L1-BIN",
+      "probability": 0.0124,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B03-L1-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L1-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B00-L1-BIN",
+      "probability": 0.0123,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B00-L1-BIN",
+      "probability": 0.0123,
+      "state": "available"
+    }
+  ],
+  "22659": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    }
+  ],
+  "21034": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0131,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0131,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0124,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0124,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0124,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0124,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    }
+  ],
+  "22698": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    }
+  ],
+  "22969": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    }
+  ],
+  "22907": [
+    {
+      "location_id": "A05-R0-B01-L2-BIN",
+      "probability": 0.0433,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B01-L2-BIN",
+      "probability": 0.0433,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B01-L1-BIN",
+      "probability": 0.0412,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B01-L1-BIN",
+      "probability": 0.0412,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0325,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0325,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L2-BIN",
+      "probability": 0.0321,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L2-BIN",
+      "probability": 0.0321,
+      "state": "occupied"
+    }
+  ],
+  "22356": [
+    {
+      "location_id": "A00-R0-B01-L0-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L0-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    }
+  ],
+  "84378": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    }
+  ],
+  "84380": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    }
+  ],
+  "21166": [
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0133,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0133,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L0-BIN",
+      "probability": 0.0128,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L0-BIN",
+      "probability": 0.0128,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    }
+  ],
+  "22502": [
+    {
+      "location_id": "A05-R0-B01-L2-BIN",
+      "probability": 0.0412,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B01-L2-BIN",
+      "probability": 0.0412,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B01-L1-BIN",
+      "probability": 0.0379,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B01-L1-BIN",
+      "probability": 0.0379,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0343,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0343,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L2-BIN",
+      "probability": 0.0297,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L2-BIN",
+      "probability": 0.0297,
+      "state": "occupied"
+    }
+  ],
+  "85152": [
+    {
+      "location_id": "A03-R0-B03-L1-BIN",
+      "probability": 0.0113,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R1-B03-L1-BIN",
+      "probability": 0.0113,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B04-L1-BIN",
+      "probability": 0.011,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B04-L1-BIN",
+      "probability": 0.011,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R0-B00-L1-BIN",
+      "probability": 0.0106,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R1-B00-L1-BIN",
+      "probability": 0.0106,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B04-L0-BIN",
+      "probability": 0.0105,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B04-L0-BIN",
+      "probability": 0.0105,
+      "state": "available"
+    }
+  ],
+  "21790": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L0-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L0-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    }
+  ],
+  "21755": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L3-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B04-L3-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    }
+  ],
+  "22662": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0094,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    }
+  ],
+  "21936": [
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0128,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0128,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0121,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0121,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0119,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0119,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B00-L0-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B00-L0-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    }
+  ],
+  "23201": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    }
+  ],
+  "82484": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0096,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    }
+  ],
+  "48138": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    }
+  ],
+  "21733": [
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0137,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0137,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0125,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0125,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L3-BIN",
+      "probability": 0.012,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L3-BIN",
+      "probability": 0.012,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    }
+  ],
+  "22326": [
+    {
+      "location_id": "A05-R0-B01-L2-BIN",
+      "probability": 0.0371,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B01-L2-BIN",
+      "probability": 0.0371,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B02-L1-BIN",
+      "probability": 0.037,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B02-L1-BIN",
+      "probability": 0.037,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0319,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0319,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L0-BIN",
+      "probability": 0.0303,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B00-L0-BIN",
+      "probability": 0.0303,
+      "state": "available"
+    }
+  ],
+  "22138": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    }
+  ],
+  "22427": [
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0154,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0154,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0151,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0151,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0147,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0147,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B00-L0-BIN",
+      "probability": 0.0147,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B00-L0-BIN",
+      "probability": 0.0147,
+      "state": "occupied"
+    }
+  ],
+  "22084": [
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0126,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0126,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R0-B01-L2-BIN",
+      "probability": 0.0124,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R1-B01-L2-BIN",
+      "probability": 0.0124,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B04-L2-BIN",
+      "probability": 0.0123,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B04-L2-BIN",
+      "probability": 0.0123,
+      "state": "available"
+    }
+  ],
+  "22501": [
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0136,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0136,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0132,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0132,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0124,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0124,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    }
+  ],
+  "22149": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0131,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0131,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0125,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0125,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0123,
+      "state": "occupied"
+    }
+  ],
+  "21930": [
+    {
+      "location_id": "A05-R0-B00-L0-BIN",
+      "probability": 0.0633,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B00-L0-BIN",
+      "probability": 0.0633,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L3-BIN",
+      "probability": 0.058,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B00-L3-BIN",
+      "probability": 0.058,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B01-L2-BIN",
+      "probability": 0.0434,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B01-L2-BIN",
+      "probability": 0.0434,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0417,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0417,
+      "state": "occupied"
+    }
+  ],
+  "48194": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    }
+  ],
+  "22385": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    }
+  ],
+  "22728": [
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    }
+  ],
+  "22467": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    }
+  ],
+  "22624": [
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0128,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0128,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L0-BIN",
+      "probability": 0.0127,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L0-BIN",
+      "probability": 0.0127,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0126,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0126,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L0-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B04-L0-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    }
+  ],
+  "23207": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    }
+  ],
+  "82580": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0457,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0457,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0452,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0452,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L0-BIN",
+      "probability": 0.0452,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L0-BIN",
+      "probability": 0.0452,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0452,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0452,
+      "state": "occupied"
+    }
+  ],
+  "23202": [
+    {
+      "location_id": "A05-R0-B00-L0-BIN",
+      "probability": 0.0513,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L0-BIN",
+      "probability": 0.0513,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L3-BIN",
+      "probability": 0.0441,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B00-L3-BIN",
+      "probability": 0.0441,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0362,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0362,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L2-BIN",
+      "probability": 0.0316,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L2-BIN",
+      "probability": 0.0316,
+      "state": "occupied"
+    }
+  ],
+  "48187": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0093,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B04-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0092,
+      "state": "occupied"
+    }
+  ],
+  "84970S": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    }
+  ],
+  "21559": [
+    {
+      "location_id": "A05-R0-B02-L1-BIN",
+      "probability": 0.2301,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B02-L1-BIN",
+      "probability": 0.2301,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B01-L1-BIN",
+      "probability": 0.2221,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B01-L1-BIN",
+      "probability": 0.2221,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.2072,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.2072,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B04-L1-BIN",
+      "probability": 0.2055,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B04-L1-BIN",
+      "probability": 0.2055,
+      "state": "available"
+    }
+  ],
+  "82600": [
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L0-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    }
+  ],
+  "84992": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0128,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0128,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B02-L2-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B02-L2-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B01-L2-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B01-L2-BIN",
+      "probability": 0.0116,
+      "state": "available"
+    }
+  ],
+  "79321": [
+    {
+      "location_id": "A02-R0-B04-L1-BIN",
+      "probability": 0.0165,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B04-L1-BIN",
+      "probability": 0.0165,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0162,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0162,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B01-L1-BIN",
+      "probability": 0.0162,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B01-L1-BIN",
+      "probability": 0.0162,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B00-L1-BIN",
+      "probability": 0.0158,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B00-L1-BIN",
+      "probability": 0.0158,
+      "state": "occupied"
+    }
+  ],
+  "20713": [
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0117,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0117,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    }
+  ],
+  "21213": [
+    {
+      "location_id": "A05-R0-B00-L3-BIN",
+      "probability": 0.0441,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B00-L3-BIN",
+      "probability": 0.0441,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B04-L2-BIN",
+      "probability": 0.041,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B04-L2-BIN",
+      "probability": 0.041,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B01-L2-BIN",
+      "probability": 0.0405,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B01-L2-BIN",
+      "probability": 0.0405,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L0-BIN",
+      "probability": 0.0373,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L0-BIN",
+      "probability": 0.0373,
+      "state": "occupied"
+    }
+  ],
+  "82486": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    }
+  ],
+  "20711": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0133,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0133,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0126,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0126,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L3-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B04-L3-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    }
+  ],
+  "21843": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B04-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    }
+  ],
+  "21094": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    }
+  ],
+  "21975": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    }
+  ],
+  "15036": [
+    {
+      "location_id": "A05-R0-B00-L3-BIN",
+      "probability": 0.0458,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L3-BIN",
+      "probability": 0.0458,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B00-L0-BIN",
+      "probability": 0.0381,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L0-BIN",
+      "probability": 0.0381,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0299,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0299,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L2-BIN",
+      "probability": 0.0296,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L2-BIN",
+      "probability": 0.0296,
+      "state": "occupied"
+    }
+  ],
+  "22328": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0298,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0298,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0291,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0291,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0287,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0287,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0287,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0287,
+      "state": "occupied"
+    }
+  ],
+  "22554": [
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0115,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0115,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L0-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L0-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    }
+  ],
+  "84988": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    }
+  ],
+  "22083": [
+    {
+      "location_id": "A05-R0-B02-L2-BIN",
+      "probability": 0.0337,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R1-B02-L2-BIN",
+      "probability": 0.0337,
+      "state": "available"
+    },
+    {
+      "location_id": "A05-R0-B01-L1-BIN",
+      "probability": 0.0328,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B01-L1-BIN",
+      "probability": 0.0328,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B01-L2-BIN",
+      "probability": 0.0321,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B01-L2-BIN",
+      "probability": 0.0321,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B02-L1-BIN",
+      "probability": 0.0315,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B02-L1-BIN",
+      "probability": 0.0315,
+      "state": "occupied"
+    }
+  ],
+  "84692": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0116,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B00-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B00-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B00-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B00-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    }
+  ],
+  "22219": [
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0685,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0685,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L3-BIN",
+      "probability": 0.0683,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B04-L3-BIN",
+      "probability": 0.0683,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B00-L3-BIN",
+      "probability": 0.068,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B00-L3-BIN",
+      "probability": 0.068,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B03-L3-BIN",
+      "probability": 0.0679,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L3-BIN",
+      "probability": 0.0679,
+      "state": "occupied"
+    }
+  ],
+  "82583": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.061,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.061,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0604,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0604,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0604,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0604,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L3-BIN",
+      "probability": 0.0603,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B04-L3-BIN",
+      "probability": 0.0603,
+      "state": "occupied"
+    }
+  ],
+  "22776": [
+    {
+      "location_id": "A02-R0-B03-L1-BIN",
+      "probability": 0.0153,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B03-L1-BIN",
+      "probability": 0.0153,
+      "state": "available"
+    },
+    {
+      "location_id": "A01-R0-B00-L1-BIN",
+      "probability": 0.015,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B00-L1-BIN",
+      "probability": 0.015,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B04-L1-BIN",
+      "probability": 0.015,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B04-L1-BIN",
+      "probability": 0.015,
+      "state": "available"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0148,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0148,
+      "state": "occupied"
+    }
+  ],
+  "21915": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0119,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0119,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    }
+  ],
+  "22551": [
+    {
+      "location_id": "A03-R0-B01-L2-BIN",
+      "probability": 0.0138,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R1-B01-L2-BIN",
+      "probability": 0.0138,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R0-B02-L1-BIN",
+      "probability": 0.0133,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R1-B02-L1-BIN",
+      "probability": 0.0133,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B04-L2-BIN",
+      "probability": 0.0133,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R1-B04-L2-BIN",
+      "probability": 0.0133,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B03-L0-BIN",
+      "probability": 0.0127,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L0-BIN",
+      "probability": 0.0127,
+      "state": "occupied"
+    }
+  ],
+  "23245": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0129,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0129,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.012,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.012,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L3-BIN",
+      "probability": 0.012,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B04-L3-BIN",
+      "probability": 0.012,
+      "state": "occupied"
+    }
+  ],
+  "20718": [
+    {
+      "location_id": "A03-R0-B01-L1-BIN",
+      "probability": 0.0137,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R1-B01-L1-BIN",
+      "probability": 0.0137,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B04-L0-BIN",
+      "probability": 0.0131,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B04-L0-BIN",
+      "probability": 0.0131,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R0-B02-L1-BIN",
+      "probability": 0.013,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R1-B02-L1-BIN",
+      "probability": 0.013,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R0-B00-L1-BIN",
+      "probability": 0.0126,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R1-B00-L1-BIN",
+      "probability": 0.0126,
+      "state": "available"
+    }
+  ],
+  "22966": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R0-B00-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R1-B00-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    }
+  ],
+  "23208": [
+    {
+      "location_id": "A05-R0-B00-L3-BIN",
+      "probability": 0.0457,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L3-BIN",
+      "probability": 0.0457,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L0-BIN",
+      "probability": 0.0426,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L0-BIN",
+      "probability": 0.0426,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L1-BIN",
+      "probability": 0.0327,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L1-BIN",
+      "probability": 0.0327,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R0-B00-L2-BIN",
+      "probability": 0.0284,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A05-R1-B00-L2-BIN",
+      "probability": 0.0284,
+      "state": "occupied"
+    }
+  ],
+  "23301": [
+    {
+      "location_id": "A02-R0-B03-L2-BIN",
+      "probability": 0.012,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L2-BIN",
+      "probability": 0.012,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B03-L1-BIN",
+      "probability": 0.0117,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L1-BIN",
+      "probability": 0.0117,
+      "state": "available"
+    },
+    {
+      "location_id": "A02-R0-B03-L0-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L0-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    }
+  ],
+  "21314": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0111,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B04-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    }
+  ],
+  "22652": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    }
+  ],
+  "22625": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0705,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0705,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0696,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0696,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0689,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0689,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B00-L3-BIN",
+      "probability": 0.0687,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B00-L3-BIN",
+      "probability": 0.0687,
+      "state": "occupied"
+    }
+  ],
+  "85066": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0664,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0664,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0657,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0657,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L2-BIN",
+      "probability": 0.0651,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L2-BIN",
+      "probability": 0.0651,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.0647,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.0647,
+      "state": "occupied"
+    }
+  ],
+  "20972": [
+    {
+      "location_id": "A02-R0-B03-L0-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L0-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B03-L2-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L2-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B03-L1-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L1-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    }
+  ],
+  "22499": [
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B00-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B00-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    }
+  ],
+  "22900": [
+    {
+      "location_id": "A02-R0-B03-L0-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L0-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B03-L2-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L2-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0103,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    }
+  ],
+  "22417": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0109,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    }
+  ],
+  "21174": [
+    {
+      "location_id": "A03-R0-B01-L2-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R1-B01-L2-BIN",
+      "probability": 0.0122,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R0-B01-L1-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R1-B01-L1-BIN",
+      "probability": 0.0118,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R0-B02-L1-BIN",
+      "probability": 0.0114,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R1-B02-L1-BIN",
+      "probability": 0.0114,
+      "state": "available"
+    },
+    {
+      "location_id": "A03-R0-B01-L3-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A03-R1-B01-L3-BIN",
+      "probability": 0.0113,
+      "state": "occupied"
+    }
+  ],
+  "23284": [
+    {
+      "location_id": "A00-R0-B02-L2-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L2-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L1-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L1-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L0-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L0-BIN",
+      "probability": 0.0106,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B03-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L0-BIN",
+      "probability": 0.0104,
+      "state": "occupied"
+    }
+  ],
+  "71459": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0105,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    }
+  ],
+  "22804": [
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0298,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0298,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0294,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0294,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0287,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0287,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L3-BIN",
+      "probability": 0.0278,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L3-BIN",
+      "probability": 0.0278,
+      "state": "occupied"
+    }
+  ],
+  "84970L": [
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.011,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0102,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.01,
+      "state": "occupied"
+    }
+  ],
+  "22189": [
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0465,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0465,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0462,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0462,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L0-BIN",
+      "probability": 0.0456,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L0-BIN",
+      "probability": 0.0456,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0454,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0454,
+      "state": "occupied"
+    }
+  ],
+  "22729": [
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B04-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B04-L3-BIN",
+      "probability": 0.0099,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    }
+  ],
+  "22029": [
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0108,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R0-B03-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A01-R1-B03-L3-BIN",
+      "probability": 0.0098,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B03-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B03-L3-BIN",
+      "probability": 0.0097,
+      "state": "occupied"
+    }
+  ],
+  "22766": [
+    {
+      "location_id": "A00-R0-B02-L3-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B02-L3-BIN",
+      "probability": 0.0112,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B03-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B03-L3-BIN",
+      "probability": 0.0107,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L3-BIN",
+      "probability": 0.0101,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L3-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L3-BIN",
+      "probability": 0.0095,
+      "state": "occupied"
+    }
+  ],
+  "22616": [
+    {
+      "location_id": "A00-R0-B01-L0-BIN",
+      "probability": 0.1184,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L0-BIN",
+      "probability": 0.1184,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R0-B04-L0-BIN",
+      "probability": 0.1172,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A02-R1-B04-L0-BIN",
+      "probability": 0.1172,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B00-L1-BIN",
+      "probability": 0.1161,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B00-L1-BIN",
+      "probability": 0.1161,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R0-B01-L1-BIN",
+      "probability": 0.1159,
+      "state": "occupied"
+    },
+    {
+      "location_id": "A00-R1-B01-L1-BIN",
+      "probability": 0.1159,
+      "state": "occupied"
+    }
+  ]
+}

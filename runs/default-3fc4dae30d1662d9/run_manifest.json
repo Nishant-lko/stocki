@@ -1,0 +1,33 @@
+{
+  "run_id": "default-3fc4dae30d1662d9",
+  "status": "completed",
+  "created_at": "2026-10-27T08:20:00.016261+00:00",
+  "config_hash": "3fc4dae30d1662d9",
+  "source_file": "data/raw/online_retail_ii.zip",
+  "source_sha256": "572e36277c2390fbfde10664750731e0a86f55e33470d91919085f0408e67bfb",
+  "cleaning": {
+    "source_rows": 541910,
+    "rows_after_validity_filter": 531286,
+    "exact_duplicates_removed": 5318,
+    "canonical_order_lines": 520751
+  },
+  "rows": {
+    "orders": 123818,
+    "skus": 150,
+    "locations": 240
+  },
+  "split_order_counts": {
+    "test": 3199,
+    "train": 10294,
+    "validation": 3295
+  },
+  "baseline_seed": 481516,
+  "is_feasible": true,
+  "comparison": {
+    "selected": "optimized",
+    "test_mean_distance_before_m": 46.785996,
+    "test_mean_distance_after_m": 36.199937,
+    "optimized_feasible": true,
+    "ml_enabled": true
+  }
+}

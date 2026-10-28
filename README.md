@@ -1,15 +1,20 @@
 # Slotwise
 
-Run the baseline pipeline against the included UCI Online Retail II archive:
+Slotwise is a Streamlit warehouse-slotting dashboard. It includes a saved, reproducible warehouse run for the comparison and safety views, plus a small synthetic area map for exploring product-to-warehouse options.
+
+## Run locally
 
 ```bash
-.venv/bin/warehouse-slotting --config configs/default.yaml
+python -m pip install -r requirements.txt
+streamlit run frontend/app.py
 ```
 
-Launch the hackathon dashboard:
+To build a new run from an orders CSV, launch the app and use **New test run**. The saved default run is included so the dashboard opens without downloading the source retail archive.
 
-```bash
-.venv/bin/streamlit run frontend/app.py
-```
+## Deploy on Streamlit Community Cloud
 
-The dashboard reads immutable artifact bundles in `runs/`. The initial screen shows the completed feasible baseline; the optimizer, matched path comparison, and baseline-versus-optimized metrics are the next implementation slice.
+1. Select this GitHub repository and the `main` branch.
+2. Set the app file path to `frontend/app.py`.
+3. Deploy. Dependencies are installed from `requirements.txt`; the checked-in default run supplies the dashboard's initial data.
+
+The warehouse measurements and product physical attributes are modeled. The area-map product and warehouse choices are deterministic synthetic demo data.
