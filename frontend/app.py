@@ -1197,7 +1197,7 @@ def render_area_analytics() -> None:
         file_name=f"product-demand-{file_tag}.csv",
         mime="text/csv",
         key="download-product-demand",
-        use_container_width=True,
+        width="stretch",
     )
     export_cols[1].download_button(
         "Warehouse activity CSV",
@@ -1205,7 +1205,7 @@ def render_area_analytics() -> None:
         file_name=f"warehouse-activity-{file_tag}.csv",
         mime="text/csv",
         key="download-warehouse-activity",
-        use_container_width=True,
+        width="stretch",
     )
     export_cols[2].download_button(
         "Stock watchlist CSV",
@@ -1213,7 +1213,7 @@ def render_area_analytics() -> None:
         file_name=f"stock-watchlist-{file_tag}.csv",
         mime="text/csv",
         key="download-stock-watchlist",
-        use_container_width=True,
+        width="stretch",
     )
 
     lower_left, lower_right = st.columns(2, gap="large")
@@ -1233,7 +1233,7 @@ def render_area_analytics() -> None:
                     "days_cover": "Days cover",
                 }
             )
-            st.dataframe(watch, hide_index=True, use_container_width=True)
+            st.dataframe(watch, hide_index=True, width="stretch")
     with lower_right:
         st.markdown("### Least active warehouses")
         quiet = warehouse_totals.nsmallest(5, "units_sold").rename(
@@ -1246,7 +1246,7 @@ def render_area_analytics() -> None:
         st.dataframe(
             quiet[["Warehouse", "Units dispatched", "On hand"]],
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
 
 
@@ -1923,7 +1923,7 @@ def render_comparison(
         st.dataframe(
             benchmark["ladder"].style.format({"Mean walk / order": "{:.1f} m"}),
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
         st.caption(
             f"Paired 95% bootstrap interval for published plan minus frequency sort: {benchmark['engine_minus_frequency']:+.1f} m "
@@ -2279,7 +2279,7 @@ def render_comparison(
                 }
             ),
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
     with st.expander("How the after layout was chosen"):
         opt = metrics["optimizer"]
@@ -2345,13 +2345,13 @@ def render_seasonal_planner(bundle: dict[str, object], run_path: str) -> None:
             if is_named_festival_run
             else "Generated for this run's SKU IDs. It assumes a 3× uplift for the top 10% of SKUs by training order frequency (up to 12 SKUs); these values are illustrative, not observed festival sales."
         )
-        st.dataframe(demo_forecast_view, hide_index=True, use_container_width=True)
+        st.dataframe(demo_forecast_view, hide_index=True, width="stretch")
         if is_named_festival_run:
             st.caption("Event calendar and provenance")
             st.dataframe(
                 pd.read_csv(ROOT / "data/demo/festival_events.csv"),
                 hide_index=True,
-                use_container_width=True,
+                width="stretch",
             )
         st.download_button(
             "Download synthetic forecast CSV",
@@ -2610,7 +2610,7 @@ def render_seasonal_planner(bundle: dict[str, object], run_path: str) -> None:
     if result["saved_seconds_per_order"] <= 0:
         st.warning("The temporary layout did not improve scenario-weighted completion time. Keep the current layout unless another operational reason justifies moving stock.")
     if not result["moves"].empty:
-        st.dataframe(result["moves"], hide_index=True, use_container_width=True)
+        st.dataframe(result["moves"], hide_index=True, width="stretch")
     else:
         st.info("The current published layout is already the best feasible layout found for these scenario weights.")
     stock_plan = result["stock_readiness"]
@@ -2637,7 +2637,7 @@ def render_seasonal_planner(bundle: dict[str, object], run_path: str) -> None:
         if not not_covered.empty
         else stock_plan.head(10),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     st.download_button(
         "Download temporary seasonal assignment",
@@ -2674,7 +2674,7 @@ def render_seasonal_picker_tasks(
     st.dataframe(
         tasks[["step", "operation", "sku_id", "from_location", "to_location", "other_sku_id", "status"]],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     pending = tasks.index[tasks["status"].ne("Completed")]
     if len(pending) == 0:
@@ -3001,7 +3001,7 @@ def render_demand(bundle: dict[str, object]) -> None:
             }
         ).round({"SKU share": 1, "Demand share": 1}),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     is_festival_demo = (
         bundle["manifest"].get("cleaning", {}).get("source_label") == "festival_orders.csv"
@@ -3130,7 +3130,7 @@ def render_safety(bundle: dict[str, object]) -> None:
         for category, zone in compatibility.get("category_zones", {}).items()
     ]
     st.subheader("Category placement matrix")
-    st.dataframe(pd.DataFrame(zone_rows), hide_index=True, use_container_width=True)
+    st.dataframe(pd.DataFrame(zone_rows), hide_index=True, width="stretch")
     assigned = (
         bundle["optimized_assignments"]
         .merge(bundle["skus"], on="sku_id")
@@ -3149,7 +3149,7 @@ def render_safety(bundle: dict[str, object]) -> None:
         zone_mismatches=("zone_ok", lambda values: int((~values).sum())),
     )
     st.subheader("Published layout category audit")
-    st.dataframe(audit, hide_index=True, use_container_width=True)
+    st.dataframe(audit, hide_index=True, width="stretch")
     categories = sorted(compatibility.get("category_zones", {}))
     clearances = {
         tuple(rule["categories"]): float(rule["min_clearance_m"])
@@ -3166,7 +3166,7 @@ def render_safety(bundle: dict[str, object]) -> None:
                 ),
             })
     st.subheader("Pairwise separation matrix")
-    st.dataframe(pd.DataFrame(separation_rows), hide_index=True, use_container_width=True)
+    st.dataframe(pd.DataFrame(separation_rows), hide_index=True, width="stretch")
     candidates = bundle["candidate_counts"]
     st.plotly_chart(
         px.histogram(
@@ -3491,7 +3491,7 @@ def render_new_run_panel() -> None:
         file_name="warehouse_locations_template.csv",
         mime="text/csv",
         help="Edit this supported parallel-aisle template, then upload it below.",
-        use_container_width=True,
+        width="stretch",
     )
     orders = st.file_uploader(
         "1 · Order & demand data (CSV)",
@@ -3517,7 +3517,7 @@ def render_new_run_panel() -> None:
         ),
     )
     go = st.button(
-        "Run the slotting test", type="primary", use_container_width=True, disabled=orders is None
+        "Run the slotting test", type="primary", width="stretch", disabled=orders is None
     )
     if go and orders is not None:
         temporary_paths = []
@@ -3821,12 +3821,12 @@ def render_inventory_simulator(bundle: dict[str, object], run_path: str) -> None
     st.dataframe(
         inventory_view,
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     inventory_events = load_demo_events(database_path, run_id)
     if not inventory_events.empty:
         st.markdown("#### Recent picks and inventory actions")
-        st.dataframe(inventory_events, hide_index=True, use_container_width=True)
+        st.dataframe(inventory_events, hide_index=True, width="stretch")
 
 
 def render_database(bundle: dict[str, object]) -> None:
@@ -4068,6 +4068,31 @@ def hero_route_preview(
     warehouse = bundle["config"]["warehouse"]
     spacing = float(warehouse["aisle_spacing_m"])
     locations = bundle["locations"].set_index("location_id")
+    used_before = set(bundle["baseline_assignments"]["location_id"].astype(str))
+    used_after = set(bundle["optimized_assignments"]["location_id"].astype(str))
+    racks = []
+    for (aisle, rack_id, bay), group in bundle["locations"].groupby(
+        ["aisle_number", "rack_id", "bay"], sort=True
+    ):
+        center_x = int(aisle) * spacing
+        racks.append(
+            {
+                "aisle": int(aisle),
+                "side": -1 if float(group["x_m"].iloc[0]) < center_x else 1,
+                "y": float(group["y_m"].iloc[0]),
+                "levels": sorted(group["shelf_level"].astype(int).tolist()),
+                "before": sorted(
+                    int(row.shelf_level)
+                    for row in group.itertuples()
+                    if str(row.location_id) in used_before
+                ),
+                "after": sorted(
+                    int(row.shelf_level)
+                    for row in group.itertuples()
+                    if str(row.location_id) in used_after
+                ),
+            }
+        )
 
     def route(replay: dict[str, object]) -> dict[str, object]:
         return {
@@ -4087,6 +4112,7 @@ def hero_route_preview(
         "front": float(warehouse["front_cross_aisle_y_m"]),
         "rear": float(warehouse["rear_cross_aisle_y_m"]),
         "depot": [float(warehouse["depot_aisle"]) * spacing, float(warehouse["depot_y_m"])],
+        "racks": racks,
         "before": route(before),
         "after": route(after),
     }
@@ -4183,6 +4209,13 @@ def hero_component(
     const aisleXs=P.aisles.map(a=>X(a*P.spacing));
     aisleXs.forEach(x=>mark("line",{{x1:x,y1:Y(P.front),x2:x,y2:Y(P.rear),stroke:"#e7dcd7","stroke-width":8,"stroke-linecap":"round"}}));
     for(const y of [P.front,P.rear])mark("line",{{x1:Math.min(...aisleXs),x2:Math.max(...aisleXs),y1:Y(y),y2:Y(y),stroke:"#c9bdb8","stroke-width":2}});
+    const rackTiles=[];
+    P.racks.forEach(r=>{{
+      const cx=X(r.aisle*P.spacing)+r.side*13,cy=Y(r.y),left=cx-7,top=cy-5;
+      mark("rect",{{x:left,y:top,width:14,height:10,rx:1.6,fill:"#fbf4ee",stroke:"#d6c6bd","stroke-width":.8}});
+      const tileWidth=11/Math.max(1,r.levels.length)-.6;
+      r.levels.forEach((level,index)=>{{const tile=mark("rect",{{x:left+1.5+index*(tileWidth+.6),y:top+2,width:tileWidth,height:6,rx:.6,fill:"#e9ddd6"}});rackTiles.push({{tile,r,level}})}});
+    }});
     const points=route=>route.vertices.map(p=>`${{X(p[0])}},${{Y(p[1])}}`).join(" ");
     mark("polyline",{{points:points(P.before),fill:"none",stroke:"#8b939d","stroke-width":2,opacity:.18,"stroke-linecap":"round","stroke-linejoin":"round"}});
     mark("polyline",{{points:points(P.after),fill:"none",stroke:"#b84a3a","stroke-width":2,opacity:.18,"stroke-linecap":"round","stroke-linejoin":"round"}});
@@ -4191,26 +4224,35 @@ def hero_component(
     mark("rect",{{x:X(P.depot[0])-5,y:Y(P.depot[1])-5,width:10,height:10,rx:2,fill:"#e0a43a",stroke:"#fff","stroke-width":1.5}});
     const dot=mark("circle",{{r:5,fill:"#b84a3a",stroke:"#fff","stroke-width":1.5}});
     const buttons=[...document.querySelectorAll("[data-route]")],detail=document.getElementById("route-detail"),change=document.getElementById("route-change");
-    let active="after",raf=0,inView=true;
+    let active="after",raf=0,inView=false,routeLength=0,cycleStart=0,lastPaint=0;
+    const motion=matchMedia("(prefers-reduced-motion: reduce)");
     const difference=P.before.distance-P.after.distance;
     change.textContent=Math.abs(difference)<.05?"Same walk for this order":`${{Math.abs(difference).toFixed(1)}} m ${{difference>0?"shorter":"longer"}} in published`;
     document.getElementById("route-caption").textContent=`First held-out order ${{P.order}} · nearest-stop routing`;
-    function settle(){{cancelAnimationFrame(raf);raf=0;const length=routeLine.getTotalLength();routeLine.style.strokeDasharray=length;routeLine.style.strokeDashoffset=0;const point=routeLine.getPointAtLength(length);dot.setAttribute("cx",point.x);dot.setAttribute("cy",point.y)}}
-    function selectRoute(key,animateRoute=false){{
-      cancelAnimationFrame(raf);raf=0;active=key;const route=P[key],name=key==="before"?"Random legal":"Published plan";
+    function showComplete(){{routeLine.style.strokeDasharray=routeLength;routeLine.style.strokeDashoffset=0;const point=routeLine.getPointAtLength(routeLength);dot.setAttribute("cx",point.x);dot.setAttribute("cy",point.y)}}
+    function stopLoop(){{if(raf)cancelAnimationFrame(raf);raf=0;if(routeLength)showComplete()}}
+    function canLoop(){{return inView&&!document.hidden&&!motion.matches}}
+    function frame(now){{
+      if(!canLoop()){{stopLoop();return}}
+      const elapsed=(now-cycleStart)%4200,progress=Math.min(1,elapsed/3100);
+      if(now-lastPaint>=30){{routeLine.style.strokeDashoffset=routeLength*(1-progress);const point=routeLine.getPointAtLength(routeLength*progress);dot.setAttribute("cx",point.x);dot.setAttribute("cy",point.y);lastPaint=now}}
+      raf=requestAnimationFrame(frame);
+    }}
+    function startLoop(){{if(raf||!canLoop()||routeLength<1)return;cycleStart=performance.now();lastPaint=0;raf=requestAnimationFrame(frame)}}
+    function selectRoute(key){{
+      stopLoop();active=key;const route=P[key],name=key==="before"?"Random legal":"Published plan";
       buttons.forEach(button=>button.setAttribute("aria-pressed",String(button.dataset.route===key)));
       routeLine.setAttribute("points",points(route));routeLine.setAttribute("stroke",key==="before"?"#707e8d":"#b84a3a");dot.setAttribute("fill",key==="before"?"#707e8d":"#b84a3a");
       svg.setAttribute("aria-label",`${{name}} route through warehouse aisles, ${{route.distance.toFixed(1)}} metres`);
       detail.textContent=`${{name}} · ${{route.distance.toFixed(1)}} m for this order`;
+      rackTiles.forEach(({{tile,r,level}})=>tile.setAttribute("fill",r[key].includes(level)?(key==="before"?"#8794a1":"#d5794e"):"#e9ddd6"));
       stops.replaceChildren();route.stops.forEach(p=>mark("circle",{{cx:X(p[0]),cy:Y(p[1]),r:3.4,fill:"#d68d54",stroke:"#fff","stroke-width":1}},stops));
-      const length=routeLine.getTotalLength();
-      if(!animateRoute||!inView||document.hidden||matchMedia("(prefers-reduced-motion: reduce)").matches||length<1){{settle();return}}
-      routeLine.style.strokeDasharray=length;routeLine.style.strokeDashoffset=length;
-      const start=performance.now();function frame(now){{const t=Math.min(1,(now-start)/1700),ease=1-Math.pow(1-t,2);routeLine.style.strokeDashoffset=length*(1-ease);const point=routeLine.getPointAtLength(length*ease);dot.setAttribute("cx",point.x);dot.setAttribute("cy",point.y);if(t<1)raf=requestAnimationFrame(frame);else raf=0}}raf=requestAnimationFrame(frame);
+      routeLength=routeLine.getTotalLength();showComplete();startLoop();
     }}
-    buttons.forEach(button=>{{const key=button.dataset.route;button.addEventListener("pointerenter",()=>{{if(active!==key)selectRoute(key,true)}});button.addEventListener("focus",()=>{{if(active!==key)selectRoute(key,true)}});button.addEventListener("click",()=>selectRoute(key,true))}});
-    new IntersectionObserver(entries=>{{inView=entries[0].isIntersecting;if(!inView&&raf)settle()}},{{threshold:.1}}).observe(document.querySelector(".preview"));
-    document.addEventListener("visibilitychange",()=>{{if(document.hidden&&raf)settle()}});
+    buttons.forEach(button=>{{const key=button.dataset.route;button.addEventListener("pointerenter",()=>{{if(active!==key)selectRoute(key)}});button.addEventListener("focus",()=>{{if(active!==key)selectRoute(key)}});button.addEventListener("click",()=>selectRoute(key))}});
+    new IntersectionObserver(entries=>{{inView=entries[0].isIntersecting;if(inView)startLoop();else stopLoop()}},{{threshold:.1}}).observe(document.querySelector(".preview"));
+    document.addEventListener("visibilitychange",()=>{{if(document.hidden)stopLoop();else startLoop()}});
+    motion.addEventListener("change",()=>{{if(motion.matches)stopLoop();else startLoop()}});
     selectRoute("after");
     </script></body></html>"""
 
@@ -4486,7 +4528,7 @@ with run_controls[1]:
     load_demo = st.button(
         "Run festival demo",
         type="primary",
-        use_container_width=True,
+        width="stretch",
         help="Build the synthetic event dataset with orders, named products, five storage categories, and a seven-aisle topology.",
         key="load-festival-demo",
     )
@@ -4513,7 +4555,7 @@ with run_controls[1]:
         except Exception as error:  # noqa: BLE001 - surface input and feasibility failures
             st.error(f"Festival demo could not be built: {error}")
 with run_controls[2]:
-    if st.button("Run gains showcase", use_container_width=True, key="load-affinity-showcase"):
+    if st.button("Run gains showcase", width="stretch", key="load-affinity-showcase"):
         demo_dir = ROOT / "data/demo"
         try:
             with st.spinner("Building the synthetic basket-affinity showcase…"):
@@ -4536,7 +4578,7 @@ with run_controls[2]:
 with run_controls[3]:
     st.button(
         "Close data feed" if st.session_state.get("show_new_run", False) else "Use my data",
-        use_container_width=True,
+        width="stretch",
         on_click=toggle_custom_feed,
         key="custom-data-feed-toggle",
     )
@@ -4561,6 +4603,32 @@ current_validation = validate_assignment(
     bundle["config"]["rules"],
 )
 if not starting_validation["is_feasible"] or not current_validation["is_feasible"]:
+    # The checked-in default run predates config snapshots. Re-evaluating its
+    # placements against today's rules can reject it even though it was valid
+    # when generated, which previously stopped the page before any dashboard
+    # visuals rendered. Replace that legacy demo with a fresh run under the
+    # current rules, then reopen the page on the new run.
+    if (
+        selected_run.startswith("default-")
+        and not bundle.get("config_snapshot_present", False)
+    ):
+        demo_dir = ROOT / "data/demo"
+        with st.spinner("Refreshing the default demo with the current safety rules…"):
+            release = run_pipeline(
+                CONFIG_PATH,
+                demo_dir / "festival_orders.csv",
+                run_name="festival-demo",
+                sku_master_csv=demo_dir / "festival_skus.csv",
+                locations_csv=demo_dir / "festival_locations.csv",
+                orders_label="festival_orders.csv",
+                sku_master_label="festival_skus.csv",
+                locations_label="festival_locations.csv",
+            )
+        load_run.clear()
+        layout_benchmark.clear()
+        scenario_robustness.clear()
+        st.session_state["preferred_run"] = release.name
+        st.rerun()
     st.error(
         "A saved layout fails the rules in its configuration snapshot. Route metrics are hidden until a fresh feasible run is selected."
     )
@@ -4573,7 +4641,7 @@ if not starting_validation["is_feasible"] or not current_validation["is_feasible
             ]
         ),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     st.stop()
 bundle["validation"] = starting_validation
@@ -4652,10 +4720,14 @@ if warehouse_tab.open:
         st.subheader("Where demand sits")
         heatmap_component(bundle)
         render_sku_inspector(bundle, joined_placements, explain_priority=True)
-        with st.expander("Explore the separate synthetic network sandbox"):
-            st.caption("This 25-site sample is illustrative and separate from the selected warehouse run.")
-            render_find_home(bundle)
-            render_area_analytics()
+        st.divider()
+        st.markdown("## Explore a 25-site area network")
+        st.caption(
+            "Use the simulated map to compare sites, inspect the top three product matches, "
+            "and orbit each recommended warehouse view. This sandbox is separate from the selected run."
+        )
+        render_find_home(bundle)
+        render_area_analytics()
 if scenarios_tab.open:
     with scenarios_tab:
         render_what_if(bundle, run_path)
