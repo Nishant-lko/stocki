@@ -13,13 +13,15 @@ from typing import Any
 import numpy as np
 import pandas as pd
 
+from warehouse_slotting.compatibility import effective_category
 from warehouse_slotting.constraints import validate_assignment
 from warehouse_slotting.forest import Forest, fit_forest
 
 FEATURES = [
     "pick_frequency", "units_sold", "unit_weight_kg", "unit_volume_cm3", "on_hand_qty",
-    "is_fragile", "is_hazmat", "is_heavy", "bin_depot_m", "shelf_level", "is_golden_zone",
-    "bin_volume_cm3", "bin_is_hazmat_zone", "aisle_number",
+    "is_fragile", "is_medical", "is_fire", "is_hazmat", "is_heavy", "bin_depot_m",
+    "shelf_level", "is_golden_zone", "bin_volume_cm3", "bin_is_standard_zone",
+    "bin_is_medical_zone", "bin_is_fire_zone", "bin_is_hazmat_zone", "aisle_number",
 ]
 FEATURE_READING = {
     "pick_frequency": "how often the product is ordered",
@@ -28,13 +30,18 @@ FEATURE_READING = {
     "unit_volume_cm3": "how big one unit is",
     "on_hand_qty": "how many units we stock",
     "is_fragile": "whether it is fragile",
+    "is_medical": "whether it requires the medical storage zone",
+    "is_fire": "whether it requires the fire-risk storage zone",
     "is_hazmat": "whether it is hazardous",
     "is_heavy": "whether it counts as heavy",
     "bin_depot_m": "how far the bin is from the packing desk",
     "shelf_level": "which shelf height the bin is on",
     "is_golden_zone": "whether the bin is at a back-friendly height",
     "bin_volume_cm3": "how big the bin is",
-    "bin_is_hazmat_zone": "whether the bin is in the isolation aisle",
+    "bin_is_standard_zone": "whether the bin is in the general storage zone",
+    "bin_is_medical_zone": "whether the bin is in the medical storage zone",
+    "bin_is_fire_zone": "whether the bin is in the fire-risk storage zone",
+    "bin_is_hazmat_zone": "whether the bin is in the hazardous isolation zone",
     "aisle_number": "which aisle the bin sits in",
 }
 FEATURE_NAMES = list(FEATURE_READING.values())
@@ -58,8 +65,11 @@ def pair_matrix(
     for sku_row in skus.itertuples(index=False):
         chosen_location = chosen_by.get(sku_row.sku_id)
         demand_row = demand.loc[sku_row.sku_id]
-        is_fragile = float(sku_row.handling_type == "fragile")
-        is_hazmat = float(sku_row.hazard_class != "none")
+        category = effective_category(sku_row._asdict())
+        is_fragile = float(category == "fragile" or sku_row.handling_type == "fragile")
+        is_medical = float(category == "medical")
+        is_fire = float(category == "fire")
+        is_hazmat = float(category == "hazardous")
         is_heavy = float(sku_row.unit_weight_kg >= 8.0)
         for location_id in candidates[sku_row.sku_id]:
             bin_row = location.loc[location_id]
@@ -70,12 +80,16 @@ def pair_matrix(
                 "unit_weight_kg": float(sku_row.unit_weight_kg),
                 "unit_volume_cm3": float(sku_row.unit_volume_cm3),
                 "on_hand_qty": float(sku_row.on_hand_qty),
-                "is_fragile": is_fragile, "is_hazmat": is_hazmat, "is_heavy": is_heavy,
+                "is_fragile": is_fragile, "is_medical": is_medical, "is_fire": is_fire,
+                "is_hazmat": is_hazmat, "is_heavy": is_heavy,
                 "bin_depot_m": float(from_depot[index_of_location[location_id]]),
                 "shelf_level": int(bin_row["shelf_level"]),
                 "is_golden_zone": float(bin_row["is_golden_zone"]),
                 "bin_volume_cm3": float(bin_row["volumetric_capacity_cm3"]),
-                "bin_is_hazmat_zone": float(bin_row["zone"] != "STANDARD"),
+                "bin_is_standard_zone": float(bin_row["zone"] == "STANDARD"),
+                "bin_is_medical_zone": float(bin_row["zone"] == "MEDICAL"),
+                "bin_is_fire_zone": float(bin_row["zone"] == "FIRE"),
+                "bin_is_hazmat_zone": float(bin_row["zone"] == "HAZMAT"),
                 "aisle_number": int(bin_row["aisle_number"]),
             })
             labels.append(float(location_id == chosen_location))

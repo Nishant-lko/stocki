@@ -14,16 +14,22 @@ split:
   route_sample_size: 300
 
 warehouse:
-  aisle_count: 6
+  aisle_count: 7
   racks_per_aisle: 2
   bays_per_rack: 5
   levels_per_bay: 4
   aisle_spacing_m: 4.0
   bay_pitch_m: 1.2
+  shelf_level_pitch_m: 0.9
   front_cross_aisle_y_m: 0.0
   rear_cross_aisle_y_m: 7.2
   depot_aisle: 0
   depot_y_m: 0.0
+  zone_aisles:
+    STANDARD: [0, 1, 2, 3]
+    MEDICAL: [4]
+    FIRE: [5]
+    HAZMAT: [6]
 
 rules:
   usable_volume_fraction: 0.90
@@ -33,6 +39,37 @@ rules:
   high_risk_levels: [3]
   hazardous_zone: HAZMAT
   fragile_forbidden_levels: [3]
+  category_zones:
+    normal: STANDARD
+    fragile: STANDARD
+    medical: MEDICAL
+    fire: FIRE
+    hazardous: HAZMAT
+  category_allowed_levels:
+    normal: [0, 1, 2, 3]
+    fragile: [0, 1, 2]
+    medical: [0, 1, 2]
+    fire: [0, 1, 2]
+    hazardous: [0, 1, 2]
+  category_separation_rules:
+    - categories: [medical, normal]
+      min_clearance_m: 2.0
+    - categories: [medical, fragile]
+      min_clearance_m: 2.0
+    - categories: [fire, normal]
+      min_clearance_m: 2.0
+    - categories: [fire, fragile]
+      min_clearance_m: 2.0
+    - categories: [fire, medical]
+      min_clearance_m: 2.0
+    - categories: [hazardous, normal]
+      min_clearance_m: 2.0
+    - categories: [hazardous, fragile]
+      min_clearance_m: 2.0
+    - categories: [hazardous, medical]
+      min_clearance_m: 2.0
+    - categories: [hazardous, fire]
+      min_clearance_m: 2.0
   hazard_min_clearance_m: 2.0
   base_pick_seconds: 4.0
   seconds_per_unit: 0.2

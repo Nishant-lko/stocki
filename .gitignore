@@ -4,6 +4,7 @@ __pycache__/
 .ruff_cache/
 *.py[cod]
 *.egg-info/
+.streamlit/secrets.toml
 
 # Input extracts and generated run artifacts can be reproduced locally.
 data/raw/*

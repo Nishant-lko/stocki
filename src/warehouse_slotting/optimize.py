@@ -108,6 +108,8 @@ def optimize_assignment(
     pair_i = np.array([sku_index[left] for left, _, _ in pairs], dtype=int)
     pair_j = np.array([sku_index[right] for _, right, _ in pairs], dtype=int)
     pair_w = np.array([count for _, _, count in pairs], dtype=float)
+    origin_assigned = assigned.copy()
+    move_budget = max(0, int(settings.get("max_changed_skus", len(sku_ids))))
     active_weights = dict(weights)
     scales = {
         "depot": float(from_depot.max()),
@@ -145,6 +147,8 @@ def optimize_assignment(
 
     def accept(trial: np.ndarray) -> None:
         nonlocal assigned, best_score, accepted
+        if np.count_nonzero(trial != origin_assigned) > move_budget:
+            raise RuntimeError("Search attempted to exceed the changed-SKU move budget")
         assigned = trial
         taken[:] = False
         taken[assigned] = True
@@ -160,6 +164,8 @@ def optimize_assignment(
     def consider(trial: np.ndarray) -> None:
         nonlocal tested
         tested += 1
+        if np.count_nonzero(trial != origin_assigned) > move_budget:
+            return
         if score(trial) < best_score - 1e-12:
             accept(trial)
 
@@ -188,6 +194,8 @@ def optimize_assignment(
                     continue
                 tested += 1
                 if not rack_ok(trial):
+                    continue
+                if np.count_nonzero(trial != origin_assigned) > move_budget:
                     continue
                 trial_score = score(trial)
                 if trial_score < best_trial_score - 1e-12:
@@ -222,6 +230,8 @@ def optimize_assignment(
                 trial = assigned.copy()
                 trial[left] = location
                 if not rack_ok(trial):
+                    continue
+                if np.count_nonzero(trial != origin_assigned) > move_budget:
                     continue
                 trial_score = score(trial)
                 if trial_score < best_trial_score - 1e-12:

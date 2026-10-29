@@ -1,0 +1,151 @@
+sku_id,description,family,event_id,event_name,event_start,scenario_days,baseline_expected_orders,expected_orders,scenario_multiplier,forecast_source
+DEMO-001,Festival gift box 01,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,96,144,1.5,Synthetic event calendar and seeded basket simulator
+DEMO-002,Home decoration 02,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,43,66,1.53,Synthetic event calendar and seeded basket simulator
+DEMO-003,Gift wrap 03,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,27,42,1.53,Synthetic event calendar and seeded basket simulator
+DEMO-004,Tableware 04,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,20,29,1.5,Synthetic event calendar and seeded basket simulator
+DEMO-005,Storage 05,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,15,9,0.6,Synthetic event calendar and seeded basket simulator
+DEMO-006,Kitchen tools 06,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,13,8,0.58,Synthetic event calendar and seeded basket simulator
+DEMO-007,Personal care 07,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,11,6,0.57,Synthetic event calendar and seeded basket simulator
+DEMO-008,Stationery 08,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,9,6,0.58,Synthetic event calendar and seeded basket simulator
+DEMO-009,Medical supplies 09,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,8,5,0.61,Synthetic event calendar and seeded basket simulator
+DEMO-010,Flammable goods 10,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,7,4,0.58,Synthetic event calendar and seeded basket simulator
+DEMO-011,Festival gift box 11,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,8,12,1.58,Synthetic event calendar and seeded basket simulator
+DEMO-012,Home decoration 12,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,7,10,1.56,Synthetic event calendar and seeded basket simulator
+DEMO-013,Gift wrap 13,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,6,9,1.5,Synthetic event calendar and seeded basket simulator
+DEMO-014,Tableware 14,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,6,8,1.52,Synthetic event calendar and seeded basket simulator
+DEMO-015,Storage 15,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,5,3,0.59,Synthetic event calendar and seeded basket simulator
+DEMO-016,Kitchen tools 16,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,5,3,0.56,Synthetic event calendar and seeded basket simulator
+DEMO-017,Personal care 17,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,4,3,0.55,Synthetic event calendar and seeded basket simulator
+DEMO-018,Stationery 18,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,4,2,0.55,Synthetic event calendar and seeded basket simulator
+DEMO-019,Medical supplies 19,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,4,3,0.63,Synthetic event calendar and seeded basket simulator
+DEMO-020,Flammable goods 20,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,4,2,0.55,Synthetic event calendar and seeded basket simulator
+DEMO-021,Festival gift box 21,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,4,5,1.55,Synthetic event calendar and seeded basket simulator
+DEMO-022,Home decoration 22,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,3,5,1.6,Synthetic event calendar and seeded basket simulator
+DEMO-023,Gift wrap 23,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,3,5,1.55,Synthetic event calendar and seeded basket simulator
+DEMO-024,Tableware 24,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,3,5,1.52,Synthetic event calendar and seeded basket simulator
+DEMO-025,Storage 25,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,3,2,0.62,Synthetic event calendar and seeded basket simulator
+DEMO-026,Kitchen tools 26,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,3,2,0.55,Synthetic event calendar and seeded basket simulator
+DEMO-027,Personal care 27,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,3,2,0.61,Synthetic event calendar and seeded basket simulator
+DEMO-028,Stationery 28,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,3,2,0.64,Synthetic event calendar and seeded basket simulator
+DEMO-029,Medical supplies 29,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,3,2,0.59,Synthetic event calendar and seeded basket simulator
+DEMO-030,Flammable goods 30,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,2,0.57,Synthetic event calendar and seeded basket simulator
+DEMO-031,Festival gift box 31,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,3,1.52,Synthetic event calendar and seeded basket simulator
+DEMO-032,Home decoration 32,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,3,1.49,Synthetic event calendar and seeded basket simulator
+DEMO-033,Gift wrap 33,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,3,1.66,Synthetic event calendar and seeded basket simulator
+DEMO-034,Tableware 34,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,3,1.59,Synthetic event calendar and seeded basket simulator
+DEMO-035,Storage 35,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.58,Synthetic event calendar and seeded basket simulator
+DEMO-036,Kitchen tools 36,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.56,Synthetic event calendar and seeded basket simulator
+DEMO-037,Personal care 37,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.58,Synthetic event calendar and seeded basket simulator
+DEMO-038,Stationery 38,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.58,Synthetic event calendar and seeded basket simulator
+DEMO-039,Medical supplies 39,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.63,Synthetic event calendar and seeded basket simulator
+DEMO-040,Flammable goods 40,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.58,Synthetic event calendar and seeded basket simulator
+DEMO-041,Festival gift box 41,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,3,1.58,Synthetic event calendar and seeded basket simulator
+DEMO-042,Home decoration 42,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,3,1.63,Synthetic event calendar and seeded basket simulator
+DEMO-043,Gift wrap 43,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,2,1.48,Synthetic event calendar and seeded basket simulator
+DEMO-044,Tableware 44,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,2,1.5,Synthetic event calendar and seeded basket simulator
+DEMO-045,Storage 45,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.65,Synthetic event calendar and seeded basket simulator
+DEMO-046,Kitchen tools 46,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.63,Synthetic event calendar and seeded basket simulator
+DEMO-047,Personal care 47,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.49,Synthetic event calendar and seeded basket simulator
+DEMO-048,Stationery 48,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.64,Synthetic event calendar and seeded basket simulator
+DEMO-049,Medical supplies 49,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.64,Synthetic event calendar and seeded basket simulator
+DEMO-050,Flammable goods 50,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,2,1,0.53,Synthetic event calendar and seeded basket simulator
+DEMO-051,Festival gift box 51,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,2,1.59,Synthetic event calendar and seeded basket simulator
+DEMO-052,Home decoration 52,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,2,1.55,Synthetic event calendar and seeded basket simulator
+DEMO-053,Gift wrap 53,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,2,1.67,Synthetic event calendar and seeded basket simulator
+DEMO-054,Tableware 54,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,2,1.41,Synthetic event calendar and seeded basket simulator
+DEMO-055,Storage 55,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.6,Synthetic event calendar and seeded basket simulator
+DEMO-056,Kitchen tools 56,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.57,Synthetic event calendar and seeded basket simulator
+DEMO-057,Personal care 57,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.46,Synthetic event calendar and seeded basket simulator
+DEMO-058,Stationery 58,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.64,Synthetic event calendar and seeded basket simulator
+DEMO-059,Medical supplies 59,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.69,Synthetic event calendar and seeded basket simulator
+DEMO-060,Flammable goods 60,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.57,Synthetic event calendar and seeded basket simulator
+DEMO-061,Festival gift box 61,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,2,1.79,Synthetic event calendar and seeded basket simulator
+DEMO-062,Home decoration 62,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,2,1.42,Synthetic event calendar and seeded basket simulator
+DEMO-063,Gift wrap 63,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,2,1.66,Synthetic event calendar and seeded basket simulator
+DEMO-064,Tableware 64,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,2,1.42,Synthetic event calendar and seeded basket simulator
+DEMO-065,Storage 65,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.61,Synthetic event calendar and seeded basket simulator
+DEMO-066,Kitchen tools 66,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.59,Synthetic event calendar and seeded basket simulator
+DEMO-067,Personal care 67,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.6,Synthetic event calendar and seeded basket simulator
+DEMO-068,Stationery 68,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.62,Synthetic event calendar and seeded basket simulator
+DEMO-069,Medical supplies 69,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.55,Synthetic event calendar and seeded basket simulator
+DEMO-070,Flammable goods 70,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.56,Synthetic event calendar and seeded basket simulator
+DEMO-071,Festival gift box 71,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.33,Synthetic event calendar and seeded basket simulator
+DEMO-072,Home decoration 72,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.55,Synthetic event calendar and seeded basket simulator
+DEMO-073,Gift wrap 73,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,2,1.6,Synthetic event calendar and seeded basket simulator
+DEMO-074,Tableware 74,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,2,1.79,Synthetic event calendar and seeded basket simulator
+DEMO-075,Storage 75,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.6,Synthetic event calendar and seeded basket simulator
+DEMO-076,Kitchen tools 76,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.68,Synthetic event calendar and seeded basket simulator
+DEMO-077,Personal care 77,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.61,Synthetic event calendar and seeded basket simulator
+DEMO-078,Stationery 78,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.56,Synthetic event calendar and seeded basket simulator
+DEMO-079,Medical supplies 79,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.7,Synthetic event calendar and seeded basket simulator
+DEMO-080,Flammable goods 80,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.47,Synthetic event calendar and seeded basket simulator
+DEMO-081,Festival gift box 81,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.57,Synthetic event calendar and seeded basket simulator
+DEMO-082,Home decoration 82,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.46,Synthetic event calendar and seeded basket simulator
+DEMO-083,Gift wrap 83,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.47,Synthetic event calendar and seeded basket simulator
+DEMO-084,Tableware 84,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.6,Synthetic event calendar and seeded basket simulator
+DEMO-085,Storage 85,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.57,Synthetic event calendar and seeded basket simulator
+DEMO-086,Kitchen tools 86,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.55,Synthetic event calendar and seeded basket simulator
+DEMO-087,Personal care 87,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.54,Synthetic event calendar and seeded basket simulator
+DEMO-088,Stationery 88,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.76,Synthetic event calendar and seeded basket simulator
+DEMO-089,Medical supplies 89,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.59,Synthetic event calendar and seeded basket simulator
+DEMO-090,Flammable goods 90,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.57,Synthetic event calendar and seeded basket simulator
+DEMO-091,Festival gift box 91,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.93,Synthetic event calendar and seeded basket simulator
+DEMO-092,Home decoration 92,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.59,Synthetic event calendar and seeded basket simulator
+DEMO-093,Gift wrap 93,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.32,Synthetic event calendar and seeded basket simulator
+DEMO-094,Tableware 94,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.72,Synthetic event calendar and seeded basket simulator
+DEMO-095,Storage 95,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.59,Synthetic event calendar and seeded basket simulator
+DEMO-096,Kitchen tools 96,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.59,Synthetic event calendar and seeded basket simulator
+DEMO-097,Personal care 97,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.66,Synthetic event calendar and seeded basket simulator
+DEMO-098,Stationery 98,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.62,Synthetic event calendar and seeded basket simulator
+DEMO-099,Medical supplies 99,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.62,Synthetic event calendar and seeded basket simulator
+DEMO-100,Flammable goods 100,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.58,Synthetic event calendar and seeded basket simulator
+DEMO-101,Festival gift box 101,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.41,Synthetic event calendar and seeded basket simulator
+DEMO-102,Home decoration 102,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.46,Synthetic event calendar and seeded basket simulator
+DEMO-103,Gift wrap 103,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.57,Synthetic event calendar and seeded basket simulator
+DEMO-104,Tableware 104,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.44,Synthetic event calendar and seeded basket simulator
+DEMO-105,Storage 105,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.59,Synthetic event calendar and seeded basket simulator
+DEMO-106,Kitchen tools 106,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.67,Synthetic event calendar and seeded basket simulator
+DEMO-107,Personal care 107,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.53,Synthetic event calendar and seeded basket simulator
+DEMO-108,Stationery 108,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.53,Synthetic event calendar and seeded basket simulator
+DEMO-109,Medical supplies 109,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.6,Synthetic event calendar and seeded basket simulator
+DEMO-110,Flammable goods 110,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.62,Synthetic event calendar and seeded basket simulator
+DEMO-111,Festival gift box 111,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.64,Synthetic event calendar and seeded basket simulator
+DEMO-112,Home decoration 112,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.53,Synthetic event calendar and seeded basket simulator
+DEMO-113,Gift wrap 113,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.49,Synthetic event calendar and seeded basket simulator
+DEMO-114,Tableware 114,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.59,Synthetic event calendar and seeded basket simulator
+DEMO-115,Storage 115,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.72,Synthetic event calendar and seeded basket simulator
+DEMO-116,Kitchen tools 116,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.5,Synthetic event calendar and seeded basket simulator
+DEMO-117,Personal care 117,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.6,Synthetic event calendar and seeded basket simulator
+DEMO-118,Stationery 118,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.6,Synthetic event calendar and seeded basket simulator
+DEMO-119,Medical supplies 119,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.65,Synthetic event calendar and seeded basket simulator
+DEMO-120,Flammable goods 120,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.59,Synthetic event calendar and seeded basket simulator
+DEMO-121,Festival gift box 121,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.48,Synthetic event calendar and seeded basket simulator
+DEMO-122,Home decoration 122,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.58,Synthetic event calendar and seeded basket simulator
+DEMO-123,Gift wrap 123,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.44,Synthetic event calendar and seeded basket simulator
+DEMO-124,Tableware 124,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.4,Synthetic event calendar and seeded basket simulator
+DEMO-125,Storage 125,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.53,Synthetic event calendar and seeded basket simulator
+DEMO-126,Kitchen tools 126,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.62,Synthetic event calendar and seeded basket simulator
+DEMO-127,Personal care 127,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.76,Synthetic event calendar and seeded basket simulator
+DEMO-128,Stationery 128,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.48,Synthetic event calendar and seeded basket simulator
+DEMO-129,Medical supplies 129,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.66,Synthetic event calendar and seeded basket simulator
+DEMO-130,Flammable goods 130,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.61,Synthetic event calendar and seeded basket simulator
+DEMO-131,Festival gift box 131,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.25,Synthetic event calendar and seeded basket simulator
+DEMO-132,Home decoration 132,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.35,Synthetic event calendar and seeded basket simulator
+DEMO-133,Gift wrap 133,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.6,Synthetic event calendar and seeded basket simulator
+DEMO-134,Tableware 134,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.64,Synthetic event calendar and seeded basket simulator
+DEMO-135,Storage 135,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.78,Synthetic event calendar and seeded basket simulator
+DEMO-136,Kitchen tools 136,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.49,Synthetic event calendar and seeded basket simulator
+DEMO-137,Personal care 137,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.47,Synthetic event calendar and seeded basket simulator
+DEMO-138,Stationery 138,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.56,Synthetic event calendar and seeded basket simulator
+DEMO-139,Medical supplies 139,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.56,Synthetic event calendar and seeded basket simulator
+DEMO-140,Flammable goods 140,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.51,Synthetic event calendar and seeded basket simulator
+DEMO-141,Festival gift box 141,Festival gift box,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.12,Synthetic event calendar and seeded basket simulator
+DEMO-142,Home decoration 142,Home decoration,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.38,Synthetic event calendar and seeded basket simulator
+DEMO-143,Gift wrap 143,Gift wrap,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.48,Synthetic event calendar and seeded basket simulator
+DEMO-144,Tableware 144,Tableware,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,1.55,Synthetic event calendar and seeded basket simulator
+DEMO-145,Storage 145,Storage,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.6,Synthetic event calendar and seeded basket simulator
+DEMO-146,Kitchen tools 146,Kitchen tools,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.66,Synthetic event calendar and seeded basket simulator
+DEMO-147,Personal care 147,Personal care,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.56,Synthetic event calendar and seeded basket simulator
+DEMO-148,Stationery 148,Stationery,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.57,Synthetic event calendar and seeded basket simulator
+DEMO-149,Medical supplies 149,Medical supplies,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.49,Synthetic event calendar and seeded basket simulator
+DEMO-150,Flammable goods 150,Flammable goods,festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,7,1,1,0.36,Synthetic event calendar and seeded basket simulator

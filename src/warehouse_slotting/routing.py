@@ -176,3 +176,104 @@ def replay_order(
         "stops": stops,
         **timing,
     }
+
+
+def replay_order_policy(
+    sku_quantities: dict[str, int],
+    assignment: dict[str, str],
+    graph: dict[str, Any],
+    rules: dict[str, Any],
+    depot_aisle: int,
+    depot_y: float,
+    policy: str,
+) -> dict[str, Any]:
+    """Replay one order using an aisle routing policy and return its legal path."""
+    normalized = policy.lower().replace("-", " ").strip()
+    if normalized in {"nearest", "nearest bin", "nearest stop"}:
+        return replay_order(sku_quantities, assignment, graph, rules, depot_aisle, depot_y)
+    if normalized not in {"s shape", "largest gap", "return"}:
+        raise ValueError(f"Unknown routing policy: {policy}")
+    from_depot = depot_distance(graph, depot_aisle, depot_y)
+    stop_skus: dict[int, str] = {}
+    groups: dict[int, list[int]] = {}
+    for sku_id in sku_quantities:
+        index = graph["index"][assignment[sku_id]]
+        stop_skus[index] = sku_id
+        groups.setdefault(int(graph["aisle"][index]), []).append(index)
+    for aisle, indices in groups.items():
+        groups[aisle] = sorted(indices, key=lambda index: (float(graph["y"][index]), graph["location_ids"][index]))
+
+    depot_x = float(depot_aisle) * graph["spacing"]
+    front, rear = float(graph["front"]), float(graph["rear"])
+    waypoints: list[tuple[float, float]] = [(depot_x, float(depot_y))]
+    ordered: list[int] = []
+
+    def aisle_point(aisle: int, y: float) -> tuple[float, float]:
+        return float(aisle) * graph["spacing"], float(y)
+
+    def add_stops(indices: list[int]) -> None:
+        ordered.extend(indices)
+        waypoints.extend((float(graph["center_x"][index]), float(graph["y"][index])) for index in indices)
+
+    active = sorted(groups)
+    if normalized == "return":
+        for aisle in active:
+            waypoints.append(aisle_point(aisle, front))
+            add_stops(groups[aisle])
+            waypoints.append(aisle_point(aisle, front))
+        waypoints.append((depot_x, float(depot_y)))
+    elif normalized == "s shape":
+        for position, aisle in enumerate(active):
+            forward = position % 2 == 0
+            start_y, end_y = (front, rear) if forward else (rear, front)
+            waypoints.append(aisle_point(aisle, start_y))
+            add_stops(groups[aisle] if forward else list(reversed(groups[aisle])))
+            waypoints.append(aisle_point(aisle, end_y))
+        end_y = rear if len(active) % 2 else front
+        waypoints.extend([(depot_x, end_y), (depot_x, float(depot_y))])
+    else:
+        front_groups: dict[int, list[int]] = {}
+        rear_groups: dict[int, list[int]] = {}
+        for aisle in active:
+            indices = groups[aisle]
+            y_positions = [front, *(float(graph["y"][index]) for index in indices), rear]
+            gaps = [right - left for left, right in pairwise(y_positions)]
+            largest = int(np.argmax(gaps))
+            if largest == 0:
+                rear_groups[aisle] = indices
+            elif largest == len(indices):
+                front_groups[aisle] = indices
+            else:
+                front_groups[aisle] = indices[:largest]
+                rear_groups[aisle] = list(reversed(indices[largest:]))
+        for aisle in sorted(front_groups):
+            waypoints.append(aisle_point(aisle, front))
+            add_stops(front_groups[aisle])
+            waypoints.append(aisle_point(aisle, front))
+        if front_groups and rear_groups:
+            last_front_aisle = max(front_groups)
+            waypoints.append(aisle_point(last_front_aisle, rear))
+        elif rear_groups:
+            waypoints.append((depot_x, rear))
+        for aisle in sorted(rear_groups, reverse=True):
+            waypoints.append(aisle_point(aisle, rear))
+            add_stops(rear_groups[aisle])
+            waypoints.append(aisle_point(aisle, rear))
+        if rear_groups:
+            waypoints.extend([(depot_x, rear), (depot_x, float(depot_y))])
+        else:
+            waypoints.append((depot_x, float(depot_y)))
+
+    compact: list[tuple[float, float]] = []
+    for point in waypoints:
+        if not compact or point != compact[-1]:
+            compact.append(point)
+    distance_m = float(sum(abs(x2 - x1) + abs(y2 - y1) for (x1, y1), (x2, y2) in pairwise(compact)))
+    levels = [int(graph["level"][index]) for index in ordered]
+    timing = time_components(distance_m, levels, sum(sku_quantities.values()), rules)
+    stops = [{
+        "sku_id": stop_skus[index], "location_id": graph["location_ids"][index],
+        "aisle": int(graph["aisle"][index]), "shelf_level": int(graph["level"][index]),
+        "quantity": int(sku_quantities[stop_skus[index]]),
+    } for index in ordered]
+    return {"distance_m": distance_m, "vertices": compact, "stops": stops, **timing}

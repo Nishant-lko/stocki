@@ -6,6 +6,7 @@ from typing import Any
 
 import pandas as pd
 
+from warehouse_slotting.compatibility import effective_category, required_zone
 from warehouse_slotting.routing import depot_distance, travel_graph
 from warehouse_slotting.synthesize import orientation_capacity
 
@@ -14,25 +15,33 @@ def product_rule_results(sku: pd.Series, location: pd.Series, rules: dict[str, A
     """Describe the existing static eligibility rules for one product/bin pair."""
     fit = orientation_capacity(sku, location, rules["usable_volume_fraction"])
     load = float(sku["unit_weight_kg"]) * int(sku["on_hand_qty"])
-    hazard_ok = (sku["hazard_class"] != "none") == (location["zone"] == rules["hazardous_zone"])
+    category = effective_category(sku)
+    zone = required_zone(sku, rules)
+    hazard_ok = str(location["zone"]).strip().casefold() == zone.casefold()
+    category_levels = rules.get("category_allowed_levels", {}).get(category)
+    category_level_ok = category_levels is None or int(location["shelf_level"]) in category_levels
     weight_ok = load <= float(location["bin_max_weight_kg"])
     heavy_ok = not (float(sku["unit_weight_kg"]) >= rules["heavy_unit_weight_kg"] and int(location["shelf_level"]) not in rules["heavy_allowed_levels"])
-    fragile_ok = not (sku["handling_type"] == "fragile" and int(location["shelf_level"]) in rules["fragile_forbidden_levels"])
+    fragile_ok = not ((category == "fragile" or sku.get("handling_type") == "fragile") and int(location["shelf_level"]) in rules["fragile_forbidden_levels"])
     failures = []
     if fit is None:
         failures.append("Stock does not fit the bin under the modeled grid packing rule.")
     if not weight_ok:
         failures.append("Stock load exceeds the bin weight limit.")
     if not hazard_ok:
-        failures.append("Product and bin are in different hazard zones.")
+        failures.append(f"{category.title()} products must be stored in the {zone} zone.")
+    if not category_level_ok:
+        failures.append(f"{category.title()} products cannot use this shelf level.")
     if not heavy_ok:
         failures.append("Heavy products are restricted to lower shelf levels.")
     if not fragile_ok:
         failures.append("Fragile products cannot use the top shelf.")
     return {
         "fit": fit is not None, "fit_capacity": fit[0] if fit else None,
+        "category": category, "required_zone": zone,
         "load_kg": load, "bin_limit_kg": float(location["bin_max_weight_kg"]),
-        "weight_ok": weight_ok, "hazard_ok": hazard_ok, "heavy_ok": heavy_ok,
+        "weight_ok": weight_ok, "hazard_ok": hazard_ok,
+        "category_level_ok": category_level_ok, "heavy_ok": heavy_ok,
         "fragile_ok": fragile_ok, "eligible": not failures, "reasons": failures,
     }
 

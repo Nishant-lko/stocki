@@ -24,9 +24,9 @@
   "baseline_seed": 481516,
   "is_feasible": true,
   "comparison": {
-    "selected": "optimized",
+    "selected": "route_refined",
     "test_mean_distance_before_m": 46.785996,
-    "test_mean_distance_after_m": 36.199937,
+    "test_mean_distance_after_m": 35.98337,
     "optimized_feasible": true,
     "ml_enabled": true
   }

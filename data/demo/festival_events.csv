@@ -1,0 +1,4 @@
+event_id,event_name,start_date,end_date,event_type,provenance
+festival-gifting-week,Festival gifting promotion (synthetic),2024-10-21,2024-10-27,historical,synthetic seeded scenario
+festival-gifting-week,Festival gifting promotion (synthetic),2025-10-20,2025-10-26,historical,synthetic seeded scenario
+festival-gifting-week,Festival gifting promotion (synthetic),2027-10-18,2027-10-24,forecast,synthetic seeded scenario

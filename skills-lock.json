@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "skills": {
+    "idea-refine": {
+      "source": "registry:antigravity/idea-refine",
+      "commit_sha": "a611d9c8fae01ba4eab55b92ef589e5aa2004334",
+      "digest": "sha256:307c4850a0a631db96e8556d5314169c86932f42f5b611cf040fd4556eabc777",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    }
+  }
+}
