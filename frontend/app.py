@@ -4617,7 +4617,7 @@ if not starting_validation["is_feasible"] or not current_validation["is_feasible
             release = run_pipeline(
                 CONFIG_PATH,
                 demo_dir / "festival_orders.csv",
-                run_name="festival-demo",
+                run_name=f"festival-demo-refresh-{datetime.now().strftime('%Y%m%d%H%M%S%f')}",
                 sku_master_csv=demo_dir / "festival_skus.csv",
                 locations_csv=demo_dir / "festival_locations.csv",
                 orders_label="festival_orders.csv",
